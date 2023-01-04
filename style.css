@@ -1,0 +1,22 @@
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: sans-serif;
+    color: green;
+}
+#main{text-align: center;}
+button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    background-color: transparent;
+    color: green;
+}
